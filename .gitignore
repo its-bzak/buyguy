@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Production/build output
+build/
+dist/
+
+# Test and coverage output
+coverage/
+.nyc_output/
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.hypothesis/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.pytype/
+
+# Python virtual environments and package/build artifacts
+.venv/
+venv/
+env/
+ENV/
+.tox/
+.nox/
+pip-wheel-metadata/
+*.egg-info/
+wheels/
+share/python-wheels/
+
+# Python test and documentation output
+.coverage
+.coverage.*
+htmlcov/
+site/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Deployment platforms
+.vercel/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.idea/
+*.swp
+*.swo
+*~
